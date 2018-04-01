@@ -1,0 +1,92 @@
+body {
+    background: url("../images/login-bg.png") no-repeat;
+    background-size: 100%;
+}
+
+
+
+.login-form {
+    width: 75%;
+    margin: 0 auto;
+}
+.form-title {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 10px;
+    padding-left: 10px;
+}
+.input-group {
+    margin: 20px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+.input-group-addon {
+    background: none;
+    border: none;
+    color: #fff;
+}
+.form-control {
+    background: none;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control::placeholder {
+    color: rgba(255,255,255,0.8);
+}
+.login-form button[type="submit"] {
+    width: 100%;
+    background: none;
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 19px;
+    margin: 10px 0;
+    letter-spacing: 15px;
+    padding-left: 31px;
+}
+.form-link {
+    text-align: center;
+    font-size: 0;
+    margin: 10px 0 0 0;
+}
+.form-link a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 10px;
+    position: relative;
+}
+.form-link a:after {
+    content: '';
+    width: 1px;
+    background: rgba(255,255,255,0.4);
+    height: 14px;
+    position: absolute;
+    top: 2px;
+    right: 0;
+}
+.form-link a:last-of-type {
+    margin: 0;
+}
+.form-link a:last-of-type:after {
+    display: none;
+}
+.form-link a:hover {
+    color: #fff;
+}
+
+
+
+.register-form .form-link {
+    text-align: left;
+}
+.register-form a.getkey {
+    background: #02dffc;
+    color: #fff;
+}
+.input-group-addon.getkey {
+    padding: 0;
+}
